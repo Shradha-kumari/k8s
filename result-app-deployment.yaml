@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: result-app
-          image: kodecloud/examplevotingapp_vote:v1
+          image: ashutosh04/blogapp:0.19
           ports:
-            - containerPort: 80
+            - containerPort: 5000 
